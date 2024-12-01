@@ -1,9 +1,16 @@
+// eslint-disable-next-line @typescript-eslint/naming-convention
 import RootLayout from "./layout";
+// eslint-disable-next-line @typescript-eslint/naming-convention
+import Navbar from "./components/navbar";
+// eslint-disable-next-line @typescript-eslint/naming-convention
+import Carrousel from "./components/carrousel";
 
-export default function Home(): JSX.Element {
+export default function home(): JSX.Element {
   return (
     <RootLayout>
-      <h1>Welcome to the Inlaze Next.js Starter!</h1>
+      <Navbar />
+      <Carrousel />
+      <h1>Hola</h1>
     </RootLayout>
   );
 }
