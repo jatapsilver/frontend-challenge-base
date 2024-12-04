@@ -1,0 +1,38 @@
+.searchContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+  }
+  
+  .searchBar {
+    flex: 1;
+    background-color: #262626;
+    padding: 1rem;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Agrega scroll si el contenido de la barra lateral excede su altura */
+  }
+  
+  .input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .select {
+    width: 87%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .movieList {
+    flex: 3;
+    padding: 20px;
+    overflow-y: auto; /* Habilita el scroll vertical si el contenido excede el tamaño del contenedor */
+    max-height: 100%; /* Establece la altura máxima del contenedor para evitar expansión */
+  }
+  

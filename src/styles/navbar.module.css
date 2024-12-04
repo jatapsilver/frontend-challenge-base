@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    padding-top: 1rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+.navbar ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+
+}
+
+.logo {
+    width: 18rem;
+    margin-right: 3rem;
+  }
+
+.user {
+    width: 4rem;
+    margin-left: auto;
+}
+
+
+ 
+  
