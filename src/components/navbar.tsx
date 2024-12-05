@@ -12,8 +12,10 @@ export default function Navbar(): JSX.Element {
         <li className={styles.logo}>
           <Image src={logo} alt="logo" />
         </li>
-        <li className={styles.list}>Popular</li>
-        <li>Favorites</li>
+        <div className={styles.list}>
+          <li>Popular</li>
+          <li>Favorites</li>
+        </div>
         <li className={styles.user}>
           <Image src={user} alt="user" />
         </li>
